@@ -6,7 +6,10 @@ def add_to_list(numbers):
     Return:
     - The modified list.
     """
-    pass
+    numbers=[2,3,4]
+    numbers.append(6)
+    
+
 
 
 def remove_from_list(numbers):
@@ -17,7 +20,10 @@ def remove_from_list(numbers):
     Return:
     - The modified list.
     """
-    pass
+    numbers=[2,3,4]
+    new_numbers=numbers.pop(1)
+    print(new_numbers)
+    
 
 
 def insert_at_beginning(numbers):
@@ -28,7 +34,10 @@ def insert_at_beginning(numbers):
     Return:
     - The modified list.
     """
-    pass
+    numbers=[2,3,4]
+    numbers[0]=0
+    return numbers
+    
 
 
 def reverse_list(numbers):
@@ -39,7 +48,9 @@ def reverse_list(numbers):
     Return:
     - The reversed list.
     """
-    pass
+    numbers(reverse=True)
+    return numbers
+    
 
 
 def create_new_tuple(t):
@@ -50,7 +61,8 @@ def create_new_tuple(t):
     Return:
     - The new tuple with the first two elements.
     """
-    pass
+    t=('')
+    
 
 
 def check_if_value_exists(t, value):
@@ -61,7 +73,7 @@ def check_if_value_exists(t, value):
     Return:
     - True if the value exists, otherwise False.
     """
-    pass
+    
 
 
 def find_intersection(set1, set2):
@@ -72,7 +84,7 @@ def find_intersection(set1, set2):
     Return:
     - The intersection of the two sets.
     """
-    pass
+    
 
 
 def find_union(set1, set2):
@@ -83,7 +95,7 @@ def find_union(set1, set2):
     Return:
     - The union of the two sets.
     """
-    pass
+    
 
 
 def find_difference(set1, set2):
@@ -94,7 +106,7 @@ def find_difference(set1, set2):
     Return:
     - The difference between the two sets.
     """
-    pass
+    
 
 
 def add_student(student_grades):
@@ -105,7 +117,7 @@ def add_student(student_grades):
     Return:
     - The updated dictionary with the new student.
     """
-    pass
+    
 
 
 def change_bob_grade(student_grades):
@@ -116,7 +128,7 @@ def change_bob_grade(student_grades):
     Return:
     - The updated dictionary with Bob’s grade changed.
     """
-    pass
+    
 
 
 def delete_charlie(student_grades):
@@ -127,7 +139,7 @@ def delete_charlie(student_grades):
     Return:
     - The updated dictionary with Charlie removed.
     """
-    pass
+    
 
 
 def retrieve_alice_grade(student_grades):
@@ -138,4 +150,4 @@ def retrieve_alice_grade(student_grades):
     Return:
     - Alice's grade.
     """
-    pass
+    
